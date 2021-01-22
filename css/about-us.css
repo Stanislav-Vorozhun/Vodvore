@@ -1,0 +1,119 @@
+.section-header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.section-dark-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c78949;
+}
+
+.section-dark-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #c78949;
+    margin: 30px auto 30px;
+}
+
+.section-services {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 130px);
+    grid-gap: 10px;
+}
+
+.services-item {
+    background-color: #c78949;
+    /* width: 49%; */
+    position: relative;
+    padding: 0px 40px 0px 86px;
+    /* margin-bottom: 10px;
+    margin-left: 10px; */
+    border-radius: 5px;
+}
+
+.services-item--1 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.services-item--2 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.services-item--3 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.services-item--4 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.services-item--5 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.services-item--6 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.services-item--7 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.services-item--8 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+.services-icon {
+    position: absolute;
+    width: 35px;
+    top: 20px;
+    left: 25px;
+    color: #1b1717;
+    z-index: 1;
+}
+
+.services-title {
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.services-text {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #1b1717;
+}

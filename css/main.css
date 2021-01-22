@@ -1,0 +1,29 @@
+@import "./normalize.css";
+@import "./header.css";
+@import "./about-us.css";
+@import "./works.css";
+@import "./statistics.css";
+@import "./footer.css";
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.section--dark {
+    background-color: #1b1717;
+}
+
+.section--light {
+    background-color: #c78949;
+}

@@ -1,0 +1,12 @@
+.footer {}
+
+.footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-colum {}
+
+.colum-2 {
+    flex-grow: 3;
+}

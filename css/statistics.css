@@ -1,0 +1,40 @@
+.statistics {
+    background-color: #c78949;
+}
+
+.stat {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* color: #fff; */
+}
+
+.stat-item {
+    flex: 0 0 20%;
+    border-left: 1px solid #cd9862;
+    text-align: center;
+    color: #1b1717;
+    padding: 70px 25px;
+    align-content: center;
+}
+
+.stat-item:last-child {
+    border-right: 1px solid #cd9862;
+}
+
+.stat-count {
+    font-family: "Montserrat", sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 10px;
+}
+
+.stat-text {
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
