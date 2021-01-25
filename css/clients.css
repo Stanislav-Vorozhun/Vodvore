@@ -1,0 +1,53 @@
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.clients-item {
+    width: 50%;
+    position: relative;
+    padding: 0 45px 0 175px;
+    margin-bottom: 60px;
+}
+
+.clients-photo {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.clients-name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #cd9862;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.clients-prof {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    color: #cd9862;
+}
+
+.clients-text {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #cd9862;
+}
+
+.clients-text::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #cd9862;
+    margin: 15px 0;
+}
