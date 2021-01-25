@@ -1,12 +1,35 @@
-.footer {}
+.footer {
+    background-color: #1b1717;
+}
 
 .footer-inner {
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-colum {}
+.footer-colum-card {
+    text-align: center;
+    flex-grow: 2;
+    padding: 50px 15px 20px 20px;
+}
 
-.colum-2 {
-    flex-grow: 3;
+.footer-colum-map {
+    flex-grow: 2;
+}
+
+.footer-text {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 15px;
+    color: #cd9862;
+}
+
+.footer-social {
+    color: #c78949;
+    text-decoration: unset;
+}
+
+.footer-social-icon {
+    width: 25px;
+    height: 20px;
 }
