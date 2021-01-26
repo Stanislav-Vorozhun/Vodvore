@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     height: 100vh;
-    background-image: url("./img/header.webp");
+    background-image: url("/img/header.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
