@@ -3,6 +3,7 @@
 @import "./about-us.css";
 @import "./works.css";
 @import "./clients.css";
+@import "./benefit.css";
 @import "./statistics.css";
 @import "./footer.css";
 * {
@@ -27,4 +28,8 @@
 
 .section--light {
     background-color: #c78949;
+}
+
+.section-light-title {
+    color: #c78949;
 }

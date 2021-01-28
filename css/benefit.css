@@ -1,0 +1,59 @@
+.section-header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.section-light-subtitle {
+    color: #c78949;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-light-subtitle::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #c78949;
+    margin: 30px auto 30px;
+}
+
+.benefit {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.benefit-items {
+    display: flex;
+    width: 50%;
+    padding: 0 45px 0 40px;
+    margin-bottom: 60px;
+}
+
+.benefit-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 25px;
+    color: #c78949;
+}
+
+.benefit-text {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: #c78949;
+}
+
+.benefit-icon {
+    padding: 17px 20px 15px 0;
+}
+
+.benefit-icon svg {
+    width: 100px;
+    height: 100px;
+    color: #c78949;
+}
