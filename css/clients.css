@@ -6,6 +6,7 @@
 
 .clients-item {
     width: 50%;
+    /* margin: 60px 0; */
     position: relative;
     padding: 0 45px 0 175px;
     margin-bottom: 60px;
@@ -17,8 +18,11 @@
     position: absolute;
     top: 0;
     left: 0px;
-    border-radius: 50%;
     z-index: 3;
+}
+
+.clients-content {
+    margin: 30px 0 0 30px;
 }
 
 .clients-name {

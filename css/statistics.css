@@ -11,15 +11,15 @@
 
 .stat-item {
     flex: 0 0 20%;
-    border-left: 1px solid #cd9862;
+    /* border-left: 1px solid #cd9862; */
     text-align: center;
     color: #1b1717;
-    padding: 70px 25px;
+    padding: 30px 25px;
     align-content: center;
 }
 
 .stat-item:last-child {
-    border-right: 1px solid #cd9862;
+    /* border-right: 1px solid #cd9862; */
 }
 
 .stat-count {
