@@ -14,6 +14,7 @@ function init() {
         routePanelControl = new ymaps.control.RoutePanel({
             options: {
                 // Добавим заголовок панели.
+                autofocus: false,
                 showHeader: true,
                 title: 'Расчёт доставки'
             }
