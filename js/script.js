@@ -7,4 +7,15 @@ $(document).ready(function() {
         fade: true,
         arrows: true
     });
+
+    $('[data-collapse]').on('click', function(e) {
+        e.preventDefault();
+
+        let $this = $(this);
+        let blockId = $this.data('collapse');
+
+        $this.toggleClass('active');
+
+    })
+
 });
