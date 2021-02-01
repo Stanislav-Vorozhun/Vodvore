@@ -1,0 +1,94 @@
+.wedo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.wedo-item {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.wedo-item h3 {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    color: #1b1717;
+    text-transform: uppercase;
+}
+
+.wedo-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Accordion */
+
+.accordion-item {
+    margin-bottom: 10px;
+    border: 2px solid #1b1717;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+.accordion-item.active .accordion-header {
+    border-bottom-color: #1b1717;
+}
+
+.accordion-item.active .accordion-header:after {
+    transform: translateY(-50%) rotate(-45deg);
+    margin-top: 5px;
+}
+
+.accordion-header {
+    padding: 15px 20px 15px 80px;
+    position: relative;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.accordion-header:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-top: 2px solid #1b1717;
+    border-right: 2px solid #1b1717;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    z-index: 1;
+    transform: translateY(-50%) rotate(135deg);
+}
+
+.accordion-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 15px;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.accordion-content {
+    padding: 15px 20px;
+    display: none;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 16px;
+    color: #1b1717;
+}
+
+.accordion-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 15px;
+    color: #1b1717;
+    text-transform: uppercase;
+}

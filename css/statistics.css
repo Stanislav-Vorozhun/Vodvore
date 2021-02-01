@@ -14,7 +14,7 @@
     /* border-left: 1px solid #cd9862; */
     text-align: center;
     color: #1b1717;
-    padding: 30px 25px;
+    padding: 0px 25px 25px 0px;
     align-content: center;
 }
 
@@ -37,4 +37,40 @@
     font-size: 14px;
     text-transform: uppercase;
     color: #333;
+}
+
+.slick-arrow {
+    display: block;
+    font-size: 0;
+    color: transparent;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.slick-arrow:focus {
+    outline: 0;
+}
+
+.slick-arrow:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-top: 2px solid #1b1717;
+    border-left: 2px solid #1b1717;
+}
+
+.slick-prev {
+    left: -50px;
+    transform: rotate(-45deg);
+}
+
+.slick-next {
+    right: 0px;
+    transform: rotate(135deg);
 }

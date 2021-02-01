@@ -2,6 +2,7 @@
 @import "./header.css";
 @import "./about-us.css";
 @import "./works.css";
+@import "./payment.css";
 @import "./clients.css";
 @import "./benefit.css";
 @import "./statistics.css";
@@ -32,4 +33,61 @@
 
 .section-light-title {
     color: #c78949;
+}
+
+.section-light-subtitle {
+    color: #c78949;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-light-subtitle::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #c78949;
+    margin: 30px auto 30px;
+}
+
+.section-light-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c78949;
+}
+
+.section-dark-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1b1717;
+}
+
+.section-dark-subtitle {
+    color: #1b1717;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-dark-subtitle::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #1b1717;
+    margin: 30px auto 30px;
+}
+
+.section-text {
+    color: #1b1717;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }
