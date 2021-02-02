@@ -2,6 +2,7 @@
 @import "./header.css";
 @import "./about-us.css";
 @import "./works.css";
+@import "./request.css";
 @import "./payment.css";
 @import "./clients.css";
 @import "./benefit.css";
@@ -85,8 +86,15 @@
     margin: 30px auto 30px;
 }
 
-.section-text {
+.section-text-dark {
     color: #1b1717;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.section-text-light {
+    color: #c78949;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 300;

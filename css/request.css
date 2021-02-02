@@ -1,0 +1,51 @@
+.request-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.tel-input {
+    font-family: 'Roboto', Arial, sans-serif;
+    height: 60px;
+    padding: 0px 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 50%;
+    border: 0 none;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.name-input {
+    font-family: 'Roboto', Arial, sans-serif;
+    height: 60px;
+    padding: 0px 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 50%;
+    border: 0 none;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 0;
+}
+
+.request-button {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 60px;
+    border: 0 none;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 20px;
+    background-color: #c78949;
+}
