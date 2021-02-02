@@ -9,8 +9,8 @@
 
 .footer-colum-card {
     text-align: center;
-    flex-grow: 2;
-    padding: 50px 15px 20px 20px;
+    flex-grow: 6;
+    padding: 15px 15px 0px 20px;
 }
 
 .footer-colum-map {
