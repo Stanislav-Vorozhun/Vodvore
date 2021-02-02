@@ -106,3 +106,73 @@
     padding: 0;
     margin: 0;
 }
+
+@media (max-width: 1230px) {
+    .header-top-wrap {
+        padding: 20px 30px;
+    }
+    .nav-link {
+        margin-left: 45px;
+    }
+    .about-us-title {
+        font-size: 40px;
+    }
+    .text-item {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 990px) {
+    .intro-subtitle h2 {
+        padding: 0px 0px 30px 0px;
+        line-height: 1.25;
+    }
+    .intro-title h1 {
+        padding: 40px 0px 10px 0px;
+        letter-spacing: 0px;
+    }
+    .intro-button a {
+        padding: 15px 70px;
+        margin: 0;
+    }
+    .about-us-img {
+        display: none;
+    }
+    .text-item {
+        width: 100%;
+        max-width: max-content;
+    }
+    .about-us-items {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .benefit-items {
+        padding: 0px 25px 0 15px;
+        margin-bottom: 30px;
+    }
+    .benefit-icon svg {
+        width: 55px;
+        height: 55px;
+    }
+    .clients {
+        width: 100%;
+        margin: 15px;
+    }
+    .stat-count {
+        font-size: 55px;
+        margin: 5px;
+    }
+    .footer-inner {
+        flex-direction: column-reverse;
+    }
+    .footer-colum-map iframe {
+        height: 250px;
+    }
+    .footer-colum-card {
+        padding: 15px 15px 0px 20px;
+    }
+}
+
+@media (max-width: 770px) {}
+
+@media (max-width: 575px) {}

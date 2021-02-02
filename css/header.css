@@ -24,6 +24,7 @@
 
 .header-top-wrap {
     display: flex;
+    align-items: center;
     margin-top: 0px;
     background-color: #1b1717;
     padding: 10px 30px;
