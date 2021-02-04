@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
     $('.clients').slick({
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
         fade: true,
         arrows: true

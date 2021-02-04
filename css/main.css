@@ -208,6 +208,9 @@
         width: 100%;
         padding: 0px 15px;
     }
+    .accordion {
+        margin-bottom: 25px;
+    }
     .accordion-title {
         font-size: 25px;
     }
@@ -228,7 +231,7 @@
         height: 85px;
     }
     .clients-item {
-        margin-bottom: 0px;
+        margin-bottom: 30px;
     }
     .clients button {
         display: none;
@@ -261,4 +264,86 @@
     }
 }
 
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+    .intro-title h1 {
+        font-size: 45px;
+    }
+    .intro-subtitle h2 {
+        display: none;
+    }
+    .intro-button {
+        margin-top: 75px;
+    }
+    .about-us-title {
+        font-size: 35px;
+    }
+    .about-us-text {
+        font-size: 17px;
+    }
+    .section-light-title {
+        font-size: 23px;
+    }
+    .section-text-light {
+        font-size: 16px;
+    }
+    .section-light-title::after {
+        display: none;
+    }
+    /*  */
+    .benefit-icon svg {
+        width: 40px;
+        height: 40px;
+    }
+    .benefit-text {
+        font-size: 18px;
+    }
+    .tel-input {
+        width: 100%;
+    }
+    .name-input {
+        width: 100%;
+    }
+    .section-dark-title {
+        font-size: 23px;
+    }
+    .section-dark-subtitle {
+        font-size: 17px;
+    }
+    .section-text-dark {
+        font-size: 16px;
+    }
+    .accordion-title {
+        font-size: 13px;
+    }
+    .accordion-content {
+        font-size: 20px;
+    }
+    .accordion-header:after {
+        top: 40%;
+    }
+    .benefit-title {
+        font-size: 20px;
+    }
+    .benefit-text {
+        font-size: 16px;
+    }
+    .benefit {
+        margin-top: 40px;
+    }
+    .stat-count {
+        font-size: 60px;
+    }
+    .stat-text {
+        font-size: 20px;
+    }
+    .header-logo-footer {
+        font-size: 30px;
+    }
+    .footer-text {
+        font-size: 15px;
+    }
+    .footer-social-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
