@@ -96,11 +96,3 @@
     opacity: 0;
     transition: opacity 0.2s linear;
 }
-
-.works-title {
-    font-family: "Robboto", sans-serif;
-    font-size: 23px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #ffffff;
-}

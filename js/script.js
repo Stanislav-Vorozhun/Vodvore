@@ -1,26 +1,22 @@
 // Slider header
 $(document).ready(function() {
 
+
     $('.clients').slick({
         autoplay: true,
         autoplaySpeed: 3000,
         fade: true,
         arrows: true,
+        responsive: [{
+            breakpoint: 770,
+            autoplay: false,
+            settings: 'unslick'
+        }]
     });
 
 
 
-    // window.addEventListener("resize", function() {
-    //     if (window.innerWidth <= 770) {
-    //         $('.clients').slick('unslick');
-    //         sliderIsLive = false;
-    //     } else {
-    //         if (sliderIsLive) {
-    //             $('.clients').slick();
-    //             sliderIsLive = true;
-    //         }
-    //     }
-    // });
+
 
 
 
