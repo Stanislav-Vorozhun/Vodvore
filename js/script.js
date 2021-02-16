@@ -6,26 +6,21 @@ $(document).ready(function() {
         autoplaySpeed: 3000,
         fade: true,
         arrows: true,
-        responsive: [{
-            breakpoint: 770,
-            settings: 'unslick'
-        }]
-
     });
 
 
 
-    // window.addEventListener("resize", function() {
-    //     if (window.innerWidth <= 768) {
-    //         $('.clients').slick('unslick');
-    //         sliderIsLive = false;
-    //     } else {
-    //         if (sliderIsLive) {
-    //             $('.clients').slick();
-    //             sliderIsLive = true;
-    //         }
-    //     }
-    // });
+    window.addEventListener("resize", function() {
+        if (window.innerWidth <= 768) {
+            $('.clients').slick('unslick');
+            sliderIsLive = false;
+        } else {
+            if (sliderIsLive) {
+                $('.clients').slick();
+                sliderIsLive = true;
+            }
+        }
+    });
 
 
 
