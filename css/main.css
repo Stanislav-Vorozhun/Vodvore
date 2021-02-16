@@ -259,14 +259,9 @@
         width: 85px;
         height: 85px;
     }
-    .clients-item {
+    .clients {
+        display: none;
         margin-bottom: 30px;
-    }
-    .clients button {
-        display: none;
-    }
-    .slick-slider {
-        display: none;
     }
     .stat {
         flex-direction: column;
