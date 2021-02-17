@@ -1,5 +1,7 @@
 ymaps.ready(init);
 
+
+
 function init() {
     // Стоимость за километр.
     var DELIVERY_TARIFF = 0.8,
@@ -10,6 +12,8 @@ function init() {
             zoom: 9,
             controls: []
         }),
+
+
         // Создадим панель маршрутизации.
         routePanelControl = new ymaps.control.RoutePanel({
             options: {
@@ -29,6 +33,8 @@ function init() {
                 }
             }
         });
+
+
     // Пользователь сможет построить только автомобильный маршрут.
     routePanelControl.routePanel.options.set({
         types: { auto: true }
@@ -41,6 +47,7 @@ function init() {
     });
 
     myMap.controls.add(routePanelControl).add(zoomControl);
+    myMap.behaviors.disable("drag")
 
     // Получим ссылку на маршрут.
     routePanelControl.routePanel.getRouteAsync().then(function(route) {
@@ -73,4 +80,7 @@ function init() {
     function calculate(routeLength) {
         return Math.max(routeLength * DELIVERY_TARIFF, MINIMUM_COST);
     }
+
+
+
 }
