@@ -10,17 +10,17 @@ $(document).ready(function() {
 
 
 
-    window.addEventListener("resize", function() {
-        if (window.innerWidth <= 768) {
-            $('.clients').slick('unslick');
-            sliderIsLive = false;
-        } else {
-            if (sliderIsLive) {
-                $('.clients').slick();
-                sliderIsLive = true;
-            }
-        }
-    });
+    // window.addEventListener("resize", function() {
+    //     if (window.innerWidth <= 770) {
+    //         $('.clients').slick('unslick');
+    //         sliderIsLive = false;
+    //     } else {
+    //         if (sliderIsLive) {
+    //             $('.clients').slick();
+    //             sliderIsLive = true;
+    //         }
+    //     }
+    // });
 
 
 
@@ -48,4 +48,6 @@ $(document).ready(function() {
         $this.toggleClass('active');
 
     })
+
+
 });

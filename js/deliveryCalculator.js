@@ -5,7 +5,7 @@ function init() {
     var DELIVERY_TARIFF = 0.8,
         // Минимальная стоимость.
         MINIMUM_COST = 30,
-        myMap = new ymaps.Map("yamap ", {
+        myMap = new ymaps.Map("map-yandex ", {
             center: [53.816977, 27.572643],
             zoom: 9,
             controls: []
