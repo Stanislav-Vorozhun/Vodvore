@@ -96,3 +96,12 @@
     opacity: 0;
     transition: opacity 0.2s linear;
 }
+
+.works-title {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}

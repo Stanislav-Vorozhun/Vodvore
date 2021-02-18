@@ -14,12 +14,6 @@ $(document).ready(function() {
         }]
     });
 
-
-
-
-
-
-
     /* Menu nav toggle */
 
     $("#nav_toggle").on("click", function(event) {

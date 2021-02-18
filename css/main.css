@@ -307,6 +307,41 @@
     .intro-button {
         margin-top: 75px;
     }
+    .works {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 15vw);
+        grid-gap: 12px;
+    }
+    .works-item--1 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .works-item--2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    .works-item--3 {
+        display: none;
+    }
+    .works-item--4 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 5;
+        grid-row-end: 9;
+    }
+    .works-item--5 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 9;
+    }
+    .works-item--6 {
+        display: none;
+    }
     .about-us-title {
         font-size: 35px;
     }
